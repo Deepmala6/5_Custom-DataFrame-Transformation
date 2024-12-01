@@ -22,31 +22,31 @@ Example use case: Applying a custom formula to calculate new features, normalizi
 
 *---Benefits of Using apply and groupby---*
 
-# Efficiency:
+1. Efficiency:
 Reduces the need for explicit loops, leveraging pandas’ optimized backend for faster operations.
-# Customization:
+2. Customization:
 Allows the implementation of complex logic or business rules.
-# Scalability: 
+3.  Scalability: 
 Easily handles large datasets by processing grouped data independently.
-# Clarity: 
+4.  Clarity: 
 Code is concise, expressive, and easier to read compared to traditional iteration methods.
 
 *---Applications----*
 
-# Sales Analysis: 
+1. Sales Analysis: 
 Grouping sales data by region and applying transformations like total revenue calculation or profit margin analysis.
-# Data Cleaning:
+2. Data Cleaning:
 Applying custom transformations to clean or standardize data within groups, e.g., filling missing values with group-specific medians.
-# Feature Engineering: 
+3.  Feature Engineering: 
 Generating new features or normalizing data across specific groups to prepare datasets for machine learning models.
 
 
 *---Example Workflow---*
-# Grouping Data: 
+1. Grouping Data: 
 Use groupby to divide the data into meaningful subsets based on categories like region, department, or time period.
-# Applying Functions:
+2.  Applying Functions:
 Use apply to implement row-wise, column-wise, or group-specific transformations to extract insights or modify the data.
-# Integration: 
+4.  Integration: 
 Combine both methods to perform operations such as aggregations followed by custom computations.
 
 
