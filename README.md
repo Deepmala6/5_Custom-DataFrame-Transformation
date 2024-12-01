@@ -22,22 +22,32 @@ Example use case: Applying a custom formula to calculate new features, normalizi
 
 *---Benefits of Using apply and groupby---*
 
-# Efficiency: Reduces the need for explicit loops, leveraging pandas’ optimized backend for faster operations.
-# Customization: Allows the implementation of complex logic or business rules.
-# Scalability: Easily handles large datasets by processing grouped data independently.
-# Clarity: Code is concise, expressive, and easier to read compared to traditional iteration methods.
+# Efficiency:
+Reduces the need for explicit loops, leveraging pandas’ optimized backend for faster operations.
+# Customization:
+Allows the implementation of complex logic or business rules.
+# Scalability: 
+Easily handles large datasets by processing grouped data independently.
+# Clarity: 
+Code is concise, expressive, and easier to read compared to traditional iteration methods.
 
 *---Applications----*
 
-# Sales Analysis: Grouping sales data by region and applying transformations like total revenue calculation or profit margin analysis.
-# Data Cleaning: Applying custom transformations to clean or standardize data within groups, e.g., filling missing values with group-specific medians.
-# Feature Engineering: Generating new features or normalizing data across specific groups to prepare datasets for machine learning models.
+# Sales Analysis: 
+Grouping sales data by region and applying transformations like total revenue calculation or profit margin analysis.
+# Data Cleaning:
+Applying custom transformations to clean or standardize data within groups, e.g., filling missing values with group-specific medians.
+# Feature Engineering: 
+Generating new features or normalizing data across specific groups to prepare datasets for machine learning models.
 
 
 *---Example Workflow---*
-# Grouping Data: Use groupby to divide the data into meaningful subsets based on categories like region, department, or time period.
-# Applying Functions: Use apply to implement row-wise, column-wise, or group-specific transformations to extract insights or modify the data.
-# Integration: Combine both methods to perform operations such as aggregations followed by custom computations.
+# Grouping Data: 
+Use groupby to divide the data into meaningful subsets based on categories like region, department, or time period.
+# Applying Functions:
+Use apply to implement row-wise, column-wise, or group-specific transformations to extract insights or modify the data.
+# Integration: 
+Combine both methods to perform operations such as aggregations followed by custom computations.
 
 
 *---Prerequisites---*
